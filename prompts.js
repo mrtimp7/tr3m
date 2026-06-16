@@ -1,12 +1,10 @@
-// tr3m AI - Encrypted Prompt Library v2.0
-// Unauthorized access or modification is prohibited
+// tr3m AI - Prompts
 (function(){
-  // UTF-8 safe base64 encode
+
   function _e(s){return btoa(unescape(encodeURIComponent(s)));}
-  // UTF-8 safe base64 decode
+
   function _d(s){return decodeURIComponent(escape(atob(s)));}
 
-  // Helper to decode reversed+base64 strings
   function _r(s){return _d(s.split('').reverse().join(''));}
 
   window.TR3M_PROMPTS = {
